@@ -1,11 +1,9 @@
-
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-
+    font-family: 'Inter', sans-serif;
 }
 header{
     background-color: #56096E;
@@ -24,6 +22,7 @@ header{
     width: 50px;
     border-radius: 50%;
     border: 2px solid #fff;
+    box-shadow: 1px 1px #0000001c;
 }
 .nav-input input{
     margin: 0.2rem 0.2rem;
@@ -91,18 +90,16 @@ header{
 #logo {
     width: 600px; /* Ajuste o tamanho conforme necessário */
     height: 700px;
-    margin-top: 10px; /* Adiciona margem superior */
-    margin-left: 150px; /* Adiciona margem esquerda */
-    object-fit: contain;
-    align-items: center;
+    margin-top: 20px; /* Adiciona margem superior */
+    margin-left: 20px; /* Adiciona margem esquerda */
 
 }
 
 .logo-container {
-    background-color: #84339d; 
+    background-color: black; 
     width: 50%;
+    height: 200px;
     float: left;
-    align-items: center;
 }
 
 .logo-text {
@@ -112,49 +109,20 @@ header{
 .explanation-container {
     background-color: #f2f2f2; /* Define uma cor de fundo para a div */
     width: 50%;
-    height: 745px;
+    height: 200px;
     float: left;
-    padding: 10px;
-    background-color: darkgray;
 
 }
 .explanation-text {
+    font-size: 18px; /* Ajuste o tamanho da fonte conforme necessário */
     text-align: center;
     padding: 20px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 24px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
 }
 
 .clearfix::after {
     content: "";
     display: table;
     clear: both;
-}
-.item {
-    width: calc(50% - 10px);
-    margin-bottom: 20px;
-    display: flex;
-    align-items: center;
-}
-.fotos{
-    background-color: #84339d;
-    align-items: left;
-}
-.fotos img{
-    border-radius: 50%;
-    width: 80px;
-    height: 80px;
-    margin-right: 20px;
-    border: 1px solid black;
-}
-
-.item figcaption {
-    font-size: 22px;
-
-
 }
 @media (max-width: 952px){
     label.logo{
